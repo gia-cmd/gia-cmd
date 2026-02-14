@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    line-height: 1.1;
+    font-family: 'Arial Black';
+}
+body {
+    max-width: 768px;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #52CDFF;
+}
+a:focus {
+    color: #3586A6;
+}
+button,
+input,
+textarea {
+    outline: 0;
+    font-family: "Outfit", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+nav.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-left: 15px solid #000;
+}
+h3{
+    font-size: 28px;
+    margin: 10px 0;
+}
+p {
+    padding-bottom: 10px;
+}
+button {
+    padding: 12px 18px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+.menus h1{
+    font-size: 20px !important;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cymcream {
+    background: #BFA8FF !important;
+    color: #fff;
+}
+.btn-cymcream:hover{
+    background: #9A87CD !important;
+}
+.btn-cymcream:focus{
+    background: #E2D7FF !important;
+}
+.text-cymcream {
+    color: #FFDB8A !important;
+}
+.text-cymgreen {
+    color: #77FFAE !important;
+}
+.mx {
+    margin: 0 5px;
+}
+.heroes {
+    padding: 10px;
+    border-left: 15px solid #52CDFF;
+}
+.heroes h2 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+.heroes b,
+.about-us b,
+.distributions b,
+.copy b,
+.connect b,
+.compact b,.contact b,
+.done b, .donation b,
+.config b{
+    border-left: 15px solid #000;
+    padding-left: 5px;
+    margin: 2.5px;
+}
+.heroes p {
+    margin-bottom: 10px;
+}
+.about-us {
+    padding: 10px;
+    border-left: 15px solid #FFDB8A;
+    /*background: #77FFAE;*/
+}
+.about-us span,
+.distributions span,
+.emailing span{
+    font-weight: bold;
+}
+.icon-action,
+.dis-image{
+    padding: 10px 0 !important;
+}
+.icon-action a {
+    font-size: 24px;
+    margin-right: 7.5px;
+}
+.distributions{
+    padding: 10px;
+    border-left: 15px solid #FF8CF2;
+    /*background: #DBFF9F;*/
+}
+.copy{
+    padding: 10px;
+    border-left: 15px solid #FF94A1;
+}
+.config{
+    padding: 10px;
+    border-left: 15px solid #A090D7;
+}
+.connect{
+    padding: 10px;
+    border-left: 15px solid #CBD766;
+}
+.done{
+    padding: 10px;
+    border-left: 15px solid #66D7A5;
+}
+.compact{
+    padding: 10px;
+    border-left: 15px solid #D79366;
+}
+.contact{
+    padding: 10px;
+    border-left: 15px solid #D72966;
+}
+.donation{
+    padding: 10px;
+    border-left: 15px solid #008056;
+}
+.copyright{
+    background: #FFDB8A;
+    padding: 10px;
+    border-left: 15px solid #66D7A5;
+}
+.dis-image img{
+    width: 40px;
+    height: 40px;
+    margin-right: 7.5px;
+    border-radius: 100%;
+}
+.email a{
+    color: #000;
+    text-decoration: none;
+}
+.btn-primary{
+    display: block !important;
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+    background: #006691;
+    color: #fff;
+}
+.mr{
+    margin-right: 7.5px;
+}
